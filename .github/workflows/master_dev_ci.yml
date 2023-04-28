@@ -1,12 +1,7 @@
 name: Mobile-Wallet CI[Master/Dev]
 
 on:
-  pull_request:
-  push:
-    branches:
-      - 'dev'
-      - 'master'
-      - 'payment_hub'
+ workflow_dispatch
 
 jobs:
   build:
